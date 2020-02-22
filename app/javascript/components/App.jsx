@@ -31,7 +31,7 @@ class App extends Component {
             width: Math.ceil(Math.random() * 3) + 2
           }
       }
-          )
+          ).reverse()
         } />
       </div>
     );
