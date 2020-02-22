@@ -27,8 +27,8 @@ class App extends Component {
       photos={this.state.pics.map(pic => {
           return {
             src: pic.path,
-            height: Math.floor(Math.random() * 2) + 2,
-            width: Math.ceil(Math.random() * 3) + 2
+            height: Math.floor(Math.random() * 3) + 2,
+            width: Math.floor(Math.random() * 3) + 2
           }
       }
           ).reverse()
