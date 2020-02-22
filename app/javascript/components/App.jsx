@@ -22,10 +22,13 @@ class App extends Component {
 
     return (
       <div className="App">
+        Hello!
       <Gallery
       photos={this.state.pics.map(pic => {
           return {
-            src: pic.path
+            src: pic.path,
+            height: Math.floor(Math.random() * 2) + 2,
+            width: Math.ceil(Math.random() * 3) + 2
           }
       }
           )
